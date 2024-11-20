@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            height: 100vh;
+            padding: 10px;
+            background-color: skyblue;
+        }
+
+        .one{
+            border: solid 1px black;   
+        }
+
+        .one1{
+            grid-column: span 2;
+            text-align: center;
+            font-size: 40px;
+            color: orange;
+        }   
+             
+        .one5{
+            grid-row: span 2;
+        }
+
+        .one13{
+            grid-column: span 4;
+        }
+
+        .one4{
+            grid-row: span 2;
+        }
+
+        .japan{
+            height: 180px;
+            width: 180px;
+            ;
+        }
+        
+        .one6{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .one10{
+            grid-column: span 2;
+        }
+
+       @media screen and  (min-width:767px; max-width: 1023px)  {
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            height: 100vh;
+            padding: 10px;
+            background-color: skyblue;
+        }
+
+        .one{
+            border: solid 1px black;   
+        }
+
+        .one1{
+            grid-column: span 2;
+            text-align: center;
+            font-size: 40px;
+            color: orange;
+        }   
+             
+        .one5{
+            grid-row: span 2;
+        }
+
+        .one13{
+            grid-column: span 4;
+        }
+
+        .one4{
+            grid-row: span 2;
+        }
+
+        .japan{
+            height: 180px;
+            width: 180px;
+            ;
+        }
+        
+        .one6{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .one10{
+            grid-column: span 2;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one  one1">JAY SHREE RAM</div>
+        <!-- <div class="one  one2">2</div> -->
+        <div class="one  one3">3</div>
+        <div class="one  one4"><img class="japan" src= "./japan.webp" alt="">JAPAN</div>
+        <div class="one  one5">5</div>
+        <div class="one  one6"><img class="japan" src= "./japan.webp" alt=""></div>
+        <!-- <div class="one  one7">7</div> -->
+        <!-- <div class="one  one8">8</div> -->
+        <!-- <div class="one  one9">9</div> -->
+        <!-- <div class="one  one10">10</div> -->
+        <!-- <div class="one  one11">11</div> -->
+        <div class="one  one12">12</div>
+        <div class="one  one13">13</div>
+        <!-- <div class="one  one14">14</div>
+        <div class="one  one15">15</div>
+        <div class="one  one16">16</div> -->
+    </div>
+</body>
+</html>
